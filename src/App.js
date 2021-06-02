@@ -9,7 +9,7 @@ import {
 import Map from "./Map.js";
 import InfoBox from "./InfoBox.js";
 import Table from "./Table.js";
-import LineGaph from "./LineGraph.js";
+import LineGraph from "./LineGraph.js";
 import { sortData } from "./util.js";
 import "leaflet/dist/leaflet.css";
 import "./App.css";
