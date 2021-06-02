@@ -9,7 +9,7 @@ import {
 import Map from "./Map.js";
 import InfoBox from "./InfoBox.js";
 import Table from "./Table.js";
-import LineGaph from "./LineGraph";
+import LineGaph from "./LineGraph.js";
 import { sortData } from "./util.js";
 import "leaflet/dist/leaflet.css";
 import "./App.css";
@@ -75,7 +75,7 @@ function App() {
           setMapZoom(2);
         } else {
           setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
-          setMapZoom(4 );
+          setMapZoom(4);
         }
       });
   };
