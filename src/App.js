@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core";
 import Map from "./Map.js";
 import InfoBox from "./InfoBox.js";
-import LineGaph from "./LineGraph";
+import LineGaph from "./LineGraph.js";
 import Table from "./Table.js";
 import { sortData } from "./util.js";
 import "leaflet/dist/leaflet.css";
